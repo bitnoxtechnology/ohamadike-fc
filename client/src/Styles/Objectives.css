@@ -1,0 +1,48 @@
+.objectives-section {
+  padding: 5rem 2rem;
+  background-color: white;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.objective-card {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.objective-card:hover {
+  transform: translateY(-10px);
+  background-color: #cc0000;
+  color: white;
+}
+
+.objective-icon {
+  color: #cc0000;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.objective-card:hover .objective-icon {
+  color: white;
+}
+
+.objective-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.objective-card p {
+  line-height: 1.6;
+  opacity: 0.9;
+}
