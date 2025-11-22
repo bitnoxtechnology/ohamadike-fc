@@ -101,9 +101,9 @@ function Contact() {
               </div>
               <div>
                 <h3>Emails</h3>
-                <p>info@ohamadikefc.org</p>
-                <p>chairman@ohamadikefc.org</p>
-                <p>HR@ohamadikefc.org</p>
+                <p>info@ohamadikefcc.org</p>
+                <p>chairman@ohamadikefcc.org</p>
+                <p>HR@ohamadikefcc.org</p>
               </div>
             </div>
           </div>

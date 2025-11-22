@@ -1,9 +1,9 @@
-import { Facebook, Twitter, Instagram } from 'lucide-react'
-import "../Styles/Footer.css"
-import Logo from "../assets/logo.png"
+import { Facebook, Twitter, Instagram } from "lucide-react";
+import "../Styles/Footer.css";
+import Logo from "../assets/logo.png";
 
 function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="footer">
@@ -11,17 +11,25 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-about">
             <div className="footer-logo">
-           <img src={Logo} alt="" />
+              <img src={Logo} alt="" />
             </div>
             <p className="footer-description">
-              Nurturing football excellence and empowering young talents since 2019.
+              Nurturing football excellence and empowering young talents since
+              2019.
             </p>
           </div>
 
           <div className="footer-links">
             <h3>Quick Links</h3>
             <div className="footer-nav">
-              {['Home', 'About', 'Objectives', 'Team', 'Gallery', 'Contact'].map((link) => (
+              {[
+                "Home",
+                "About",
+                "Objectives",
+                "Team",
+                "Gallery",
+                "Contact",
+              ].map((link) => (
                 <a key={link} href={`#${link.toLowerCase()}`}>
                   {link}
                 </a>
@@ -33,11 +41,12 @@ function Footer() {
             <h3>Contact Info</h3>
             <div className="footer-contact-info">
               <p>
-                1, Somonu Street, Oke-Ira<br />
+                1, Somonu Street, Oke-Ira
+                <br />
                 Ogba, Ikeja, Lagos
               </p>
               <p>Phone: 08126415001</p>
-              <p>cinfo@ohamadikefc.org</p>
+              <p>cinfo@ohamadikefcc.org</p>
             </div>
           </div>
 
@@ -59,15 +68,14 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            &copy; {currentYear} Ohamadike International Football Club. All rights reserved.
+            &copy; {currentYear} Ohamadike International Football Club. All
+            rights reserved.
           </p>
-          <p className="footer-registered">
-            Registered on November 27, 2019
-          </p>
+          <p className="footer-registered">Registered on November 27, 2019</p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
