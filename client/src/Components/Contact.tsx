@@ -103,7 +103,7 @@ function Contact() {
                 <h3>Emails</h3>
                 <p>info@ohamadikefcc.org</p>
                 <p>chairman@ohamadikefcc.org</p>
-                <p>HR@ohamadikefcc.org</p>
+                <p>hr@ohamadikefcc.org</p>
               </div>
             </div>
           </div>
